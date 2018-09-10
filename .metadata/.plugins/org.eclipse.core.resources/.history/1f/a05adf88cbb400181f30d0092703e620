@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structuralpattern.factorypattern;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public class Square implements Shape {
+
+	/* (non-Javadoc)
+	 * @see com.rk.trainings.designpatterns.structuralpattern.factorypattern.Shape#draw()
+	 */
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

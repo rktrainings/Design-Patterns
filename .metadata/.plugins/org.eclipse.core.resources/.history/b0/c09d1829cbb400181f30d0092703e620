@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structuralpattern.factorypattern;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public interface Shape {
+
+}

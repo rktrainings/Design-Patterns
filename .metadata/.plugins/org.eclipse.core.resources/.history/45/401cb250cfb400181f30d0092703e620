@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structural.factory.constants;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public interface FactoryConstants {
+
+}

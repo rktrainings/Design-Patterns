@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;designpatterns/structuralpattern&apos; to &apos;structural&apos;" description="Rename resource &apos;structuralpattern&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="structuralpattern" name="structural" stamp="1536563975035" updateReferences="true"/>
+</session>

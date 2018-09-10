@@ -1,0 +1,135 @@
+!SESSION 2018-09-10 11:29:40.575 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2018-09-10 11:29:56.229
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-09-10 11:29:56.229
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@36eb76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2018-09-10 11:30:04.137
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.243
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.286
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.316
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.354
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.418
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.478
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.545
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.608
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.675
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.789
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-09-10 11:30:04.956
+!MESSAGE Installed snippet library: C:\Users\RavikumarPothannagar\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2018-09-10 11:30:59.640
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.951
+!MESSAGE NLS unused message: ContentAssistProposal_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.957
+!MESSAGE NLS unused message: ContentAssistProposal_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.962
+!MESSAGE NLS unused message: ContentAssistProposal_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.967
+!MESSAGE NLS unused message: ContentAssistProposal_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.972
+!MESSAGE NLS unused message: ContentAssistTip_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.976
+!MESSAGE NLS unused message: ContentAssistTip_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.981
+!MESSAGE NLS unused message: ContentAssistTip_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.986
+!MESSAGE NLS unused message: ContentAssistTip_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.991
+!MESSAGE NLS unused message: ContentFormat_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:34.996
+!MESSAGE NLS unused message: ContentFormat_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:35.001
+!MESSAGE NLS unused message: ContentFormat_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-09-10 12:49:35.006
+!MESSAGE NLS unused message: ContentFormat_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.ui.workbench 2 0 2018-09-10 12:49:51.791
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2018-09-10 12:49:51.791
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@586ac6,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@ca1038,
+	expression=,sourcePriority=0)

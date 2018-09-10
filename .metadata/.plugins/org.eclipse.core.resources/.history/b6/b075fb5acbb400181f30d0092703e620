@@ -1,0 +1,108 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structuralpattern.factorypattern;
+
+import java.awt.Shape;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.PathIterator;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public class Rectangle implements Shape {
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#contains(java.awt.geom.Point2D)
+	 */
+	@Override
+	public boolean contains(Point2D p) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#contains(java.awt.geom.Rectangle2D)
+	 */
+	@Override
+	public boolean contains(Rectangle2D r) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#contains(double, double)
+	 */
+	@Override
+	public boolean contains(double x, double y) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#contains(double, double, double, double)
+	 */
+	@Override
+	public boolean contains(double x, double y, double w, double h) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#getBounds()
+	 */
+	@Override
+	public java.awt.Rectangle getBounds() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#getBounds2D()
+	 */
+	@Override
+	public Rectangle2D getBounds2D() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#getPathIterator(java.awt.geom.AffineTransform)
+	 */
+	@Override
+	public PathIterator getPathIterator(AffineTransform at) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#getPathIterator(java.awt.geom.AffineTransform, double)
+	 */
+	@Override
+	public PathIterator getPathIterator(AffineTransform at, double flatness) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#intersects(java.awt.geom.Rectangle2D)
+	 */
+	@Override
+	public boolean intersects(Rectangle2D r) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.awt.Shape#intersects(double, double, double, double)
+	 */
+	@Override
+	public boolean intersects(double x, double y, double w, double h) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structuralpattern.factorypattern;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public class FactoryPatternDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
