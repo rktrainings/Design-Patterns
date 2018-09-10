@@ -1,0 +1,9 @@
+package com.rk.trainings.designpatterns.structural.abstractfactory.service;
+
+/**
+ * @author RavikumarPothannagar
+ * 
+ */
+public interface IColor {
+	void fill();
+}
