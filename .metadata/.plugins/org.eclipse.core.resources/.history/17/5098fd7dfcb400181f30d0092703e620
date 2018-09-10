@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.creational.singleton.demo;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public class SingletonPatternDemo {
+
+}

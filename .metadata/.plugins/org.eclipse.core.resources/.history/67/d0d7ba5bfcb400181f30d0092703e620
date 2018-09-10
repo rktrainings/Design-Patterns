@@ -1,0 +1,5 @@
+package com.rk.trainings.designpatterns.creational.singleton.pattern;
+
+public class SingleObject {
+
+}
