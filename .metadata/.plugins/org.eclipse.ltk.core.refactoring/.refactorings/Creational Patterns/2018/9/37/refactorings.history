@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Creational Patterns/AbstractFactory/com/rk/trainings/designpatterns/structural/abstractfactory/constants/FactoryConstants.java&apos; to &apos;AbstractFactoryConstants.java&apos;" description="Rename resource &apos;FactoryConstants.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="AbstractFactory/com/rk/trainings/designpatterns/structural/abstractfactory/constants/FactoryConstants.java" name="AbstractFactoryConstants.java" stamp="1536575194555" updateReferences="true"/>
+</session>

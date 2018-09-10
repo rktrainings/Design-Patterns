@@ -1,0 +1,54 @@
+package com.rk.trainings.designpatterns.structural.abstractfactory.demo;
+
+import com.rk.trainings.designpatterns.structural.abstractfactory.constants.AbstractFactoryConstants;
+import com.rk.trainings.designpatterns.structural.abstractfactory.pattern.AbstractFactory;
+import com.rk.trainings.designpatterns.structural.abstractfactory.pattern.FactoryProducer;
+import com.rk.trainings.designpatterns.structural.abstractfactory.service.IColor;
+import com.rk.trainings.designpatterns.structural.abstractfactory.service.IShape;
+
+public class AbstractFactoryPatternDemo {
+	 public static void main(String[] args) {
+
+	      //get shape factory
+	      AbstractFactory shapeFactory = FactoryProducer.getFactory(AbstractFactoryConstants.SHAPE);
+
+	      //get an object of Shape Circle
+	      IShape shape1 = shapeFactory.getShape(AbstractFactoryConstants.CIRCLE);
+
+	      //call draw method of Shape Circle
+	      shape1.draw();
+
+	      //get an object of Shape Rectangle
+	      IShape shape2 = shapeFactory.getShape(AbstractFactoryConstants.RECTANGLE);
+
+	      //call draw method of Shape Rectangle
+	      shape2.draw();
+	      
+	      //get an object of Shape Square 
+	      IShape shape3 = shapeFactory.getShape(AbstractFactoryConstants.SQUARE);
+
+	      //call draw method of Shape Square
+	      shape3.draw();
+
+	      //get color factory
+	      AbstractFactory colorFactory = FactoryProducer.getFactory(AbstractFactoryConstants.COLOR);
+
+	      //get an object of Color Red
+	      IColor color1 = colorFactory.getColor(AbstractFactoryConstants.RED);
+
+	      //call fill method of Red
+	      color1.fill();
+
+	      //get an object of Color Green
+	      IColor color2 = colorFactory.getColor(AbstractFactoryConstants.GREEN);
+
+	      //call fill method of Green
+	      color2.fill();
+
+	      //get an object of Color Blue
+	      IColor color3 = colorFactory.getColor(AbstractFactoryConstants.GREEN);
+
+	      //call fill method of Color Blue
+	      color3.fill();
+	   }
+}

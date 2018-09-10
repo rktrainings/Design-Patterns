@@ -1,0 +1,11 @@
+package com.rk.trainings.designpatterns.structural.abstractfactory.service;
+
+public class Green implements IColor {
+
+	@Override
+	public void fill() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

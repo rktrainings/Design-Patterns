@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structural.abstractfactory.service;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public class Red implements IColor {
+
+	/* (non-Javadoc)
+	 * @see com.rk.trainings.designpatterns.structural.abstractfactory.service.IColor#fill()
+	 */
+	@Override
+	public void fill() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

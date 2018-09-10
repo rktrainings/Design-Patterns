@@ -1,0 +1,5 @@
+package com.rk.trainings.designpatterns.structural.abstractfactory.demo;
+
+public class AbstractFactoryPatternDemo {
+
+}

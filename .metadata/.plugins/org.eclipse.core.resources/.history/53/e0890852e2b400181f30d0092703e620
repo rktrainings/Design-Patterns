@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.rk.trainings.designpatterns.structural.abstractfactory.pattern;
+
+import com.rk.trainings.designpatterns.structural.abstractfactory.service.IColor;
+import com.rk.trainings.designpatterns.structural.abstractfactory.service.IShape;
+
+/**
+ * @author RavikumarPothannagar
+ *
+ */
+public class ShapeFactory extends AbstractFactory {
+
+	@Override
+	IColor getColor(String color) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	IShape getShape(String shape) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.rk.trainings.designpatterns.structural.abstractfactory.pattern;
+
+public class FactoryProducer {
+
+}
